@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The homepage for the Erickson School Memory Care Summit portfolio site. This is a fake site created for a portfolio. This is the main page where you can find more detailed Memory Care Summit information.">
+  <meta name="author" content="Kelsey Hood">
+  <meta name="keywords"
+    content="Erickson School, Memory Care, Summit, UMBC, University of Maryland, UMBC Aging, Erickson School of Aging">
+  <title>Memory Care Summit</title>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">  
+
+  <!-- MY STYLESHEET -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Memory Care Summit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown text-white">
+            <a class="nav-link dropdown-toggle fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="index.html#speakers">Speakers</a>
+            <ul class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown" style="border:none">
+              <li><a class="dropdown-item text-white nav-drop" href="#speakers">All Speakers</a></li>
+              <li><hr class="dropdown-divider text-white"></li>
+              <li><a class="dropdown-item text-white nav-drop" href="speakers.html#markBio">Mark Matheis</a></li>
+              <li><a class="dropdown-item text-white nav-drop" href="speakers.html#richBio">Richard Prudom</a></li>
+              <li><a class="dropdown-item text-white nav-drop" href="speakers.html#kristiBio">Kristi Stolgin</a></li>
+              <li><a class="dropdown-item text-white nav-drop" href="speakers.html#robynBio">Robyn Stone</a></li>
+              <li><a class="dropdown-item text-white nav-drop" href="speakers.html#concettaBio">Concetta Tomaino</a></li>
+              <li><a class="dropdown-item text-white nav-drop" href="speakers.html#jackBio">Jack York</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#registration">Registration and Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- HEADER -->
+  <header class="">
+    <div class='container-fluid header-content-container'>
+      <div class="">
+        <div class="row mx-auto pt-5">
+          <div class="col-12 text-center">
+            <h1 class="display-3 text-light">The 7<sup>th</sup> Annual Memory Care Summit</h1>
+            <h2 class="font-weight-light mb-3 display-4 text-light"><em>Connnect!</em></h2>
+          </div>
+        </div>
+        <div class="row mx-auto pt-5">
+          <div class="col-md-4 mx-auto text-center">
+            <a href="index.html" class="btn btn-lg btn-light fs-4 fw-bold header-btn reg-btn">Register</a>
+          </div>
+          <div class="col-md-4 mx-auto text-center">
+            <a href="doc/2019MCS-Agenda.pdf" class="btn btn-lg btn-light fs-4 fw-bold header-btn reg-btn">Print Agenda</a>
+          </div>
+          <div class="col-md-4 mx-auto text-center">
+            <a href="#contact-us" class="btn btn-lg btn-light fs-4 fw-bold header-btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      
+      <!--
+      <div class="row mx-auto d-flex align-self-end flex-fill" style="background-color: cadetblue;">
+        <div class="col-md-6 mx-auto text-center">
+          <a href=" #" class="btn btn-lg btn-outline-light fs-3 fw-bold header-btn reg-btn">Register</a>
+        </div>
+        <div class="col-md-6 mx-auto text-center">
+          <a href="#" class="btn btn-lg btn-outline-light fs-3 fw-bold header-btn">Contact Us</a>
+        </div>
+      </div>
+      -->
+    </div>
+  </header>
+  <span id="about"></span>
+  <section class="container-fluid mb-5 mx-auto text-center pt-5 pb-5 px-3 text-white leading-text">
+    <div class="row">
+      <div class="col-12">
+        <p class="lead fs-4 mx-auto">The Erickson School has joined with the Disney Institute to create a unique experience for you and your
+          colleagues that will stimulate your imagination, present insights from experienced leaders, and provide
+          practical,
+          evidence based, state of the art knowledge to inspire you and transform your thinking about memory care.</p>
+
+        <p class="lead fs-4 mx-auto">Be part of this uniquely interactive and thought provoking event from <time>January 22 to 24</time> at
+          Disney’s
+          Beach and Yacht Club Resorts.</p>
+        <div style="height:50px"></div>
+      </div>
+      <!-- 
+      <div class="col-md-6">
+        <div style="width:300px;height:200px;background-color: burlywood;">IMG</div>
+      </div>
+      -->
+    </div>
+  </section>
+  <!-- ABOUT -->
+  <section class="container my-5">
+    <h2 class="mb-3">About</h2>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>SPECIAL NOTICE ABOUT THIS WEBSITE:</strong><br>
+      <i>This is not the actual Memory Care Summit website. I do not own the content or photos used for this site, although the Summit Agenda and Save the Date Flyer were designed by me. The purpose of redesigning the Summit website is purely for educational/portfolio purposes, and was something I created during my time as an Erickson School student worker.</i><br><br>
+      <b>To view the actual Memory Care Summit webpage, please visit the <a href="https://erickson.umbc.edu/executive_education/memory-care-summit/" title="The Erickson School - The Memory Care Summit" target="_blank">Erickson School's website</a>.</b>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="mb-5 mt-3 row">
+      <div class="col-md-8 col-sm-7">
+        <h3 class="font-weight-light">The Erickson School...</h3>
+        <ul>
+          <li>Has unique interdisciplinary programs that develops students to lead organizations that work with, or on behalf of older adults.</li>
+          <li>Connects the brainpower of a leading research university with the practical expertise and knowledge of world-renowned leaders in the aging services field.</li>
+          <li>Provides Undergraduate, Graduate and Professional Education.</li>
+          <li>Blends knowledge of human aging, public policy and management to develop skills that include communication, financial acumen, critical thinking, leadership, problem solving, and decision-making.</li>
+          <li>Undergraduate Program Internships provide students with the opportunity for career exploration and development and to obtain practical experience.</li>
+          <li>Both Undergraduate and Graduate programs culminate with a Capstone Project that is designed to give the students an opportunity to apply their understanding of the content and highlight innovative solutions.</li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-5">
+        <figure>
+        <img loading="lazy" class="img-fluid lazyload" data-src="img/img-loc-school.jpg" style="border-radius:100px 0 100px 0; min-width: 250px;" width="100%" alt="Photo of the Erickson School">
+        <figcaption class="text-center text-muted mt-2"><i>A photo of the Erickson School building.</i></figcaption>
+      </figure>
+      </div>
+    </div>
+    <!-- SPONSORS -->
+    <div class="container-fluid">
+      <h3>We would like to thank our sponsors...</h3>
+      <div class="row text-center mt-5">
+        <div class="col-lg-2 col-md-4 col-6 mb-5">
+          <img loading="lazy" class="lazyload" data-src="img/img-logo-chaase.svg" alt="CHAASE logo" title="Center for Health Administration and Aging Services Excellence" class="img-fluid sponsor-img">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-5">
+          <img loading="lazy" class="lazyload" data-src="img/img-logo-integrace.svg" alt="Integrace logo" title="Integrace" class="img-fluid sponsor-img">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-5">
+          <img loading="lazy" class="lazyload" data-src="img/img-logo-never2late.svg" alt="It's Never 2 Late logo" title="It's Never 2 Late" class="img-fluid sponsor-img">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-5">
+          <img loading="lazy" class="lazyload" data-src="img/img-logo-nic.svg" alt="NIC logo" title="National Investment Center" class="img-fluid sponsor-img">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-5">
+          <img loading="lazy" class="lazyload" data-src="img/img-logo-univwisconsin.svg" alt="University of Wisconsin logo" title="University of Wisconsin" class="img-fluid sponsor-img">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <img loading="lazy" class="lazyload" data-src="img/img-logo-villageisle.svg" alt="Village on the Isle logo" title="Village on the Isle" class="img-fluid sponsor-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div class="container-fluid text-center py-3" id="speakers">
+    <img src="img/img-border.svg" width="30%" style="min-width: 250px;" alt="">
+  </div> -->
+  <hr id="speakers">
+  <!-- SPEAKERS -->
+  <section class="container-fluid my-5">
+    <div class="container">
+      <h2 class="mb-3">Speakers</h2>
+      <h3>Here are our amazing guest speakers!</h3>
+    </div>
+    <div class="mt-5 container-fluid">
+      <!-- ROW 1 -->
+      <div class="row">
+        <!-- CARD 1 -->
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="text-center speaker-container">
+            <a href="speakers.html#markBio" title="Read Mark's Bio"><img loading="lazy" class="lazyload" data-src="https://res.cloudinary.com/dg92t6syv/image/upload/v1627926092/MCS/img-profile-matheis_uxckmc.jpg" alt="Mark Matheis photo"/></a>
+            <h4 class="mt-3">Mark Matheis</h4>
+            <p class="text-muted">The Disney Institute</p>
+            <a href="speakers.html#markBio" class="btn btn-primary speaker-btn" title="Read Mark's Bio">Read Mark's Bio</a>
+          </div>
+          <!-- <div class="card card-styling" >
+            <img src="assets/nocampimg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mark Matheis</h5>
+              <p class="card-text text-muted">The Disney Institute</p>
+              <a href="#" class="btn btn-primary">Read Mark's Bio</a>
+            </div>
+          </div> -->
+        </div>
+        <!-- CARD 2 -->
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="text-center speaker-container">
+            <a href="speakers.html#richBio" title="Read Richard's Bio"><img loading="lazy" class="lazyload" data-src="https://res.cloudinary.com/dg92t6syv/image/upload/v1627926092/MCS/img-profile-prudom_iimufh.jpg" alt="Richard Prudom photo"/></a>
+            <h4 class="mt-3">Richard Prudom</h4>
+            <p class="text-muted">Florida Department of Elder Affairs</p>
+            <a href="speakers.html#richBio" class="btn btn-primary speaker-btn" title="Read Richard's Bio">Read Richard's Bio</a>
+          </div>
+          <!-- <div class="card card-styling" >
+            <img src="assets/nocampimg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Richard Prudom</h5>
+              <p class="card-text text-muted">Florida Department of Elder Affairs</p>
+              <a href="#" class="btn btn-primary">Read Richard's Bio</a>
+            </div>
+          </div> -->
+        </div>
+        <!-- CARD 3 -->
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="text-center speaker-container">
+            <a href="speakers.html#kristiBio" title="Read Kristi's Bio"><img loading="lazy" class="lazyload" data-src="https://res.cloudinary.com/dg92t6syv/image/upload/v1627926092/MCS/img-profile-stolgin_llhojh.jpg" alt="Kristi Stolgin photo"/></a>
+            <h4 class="mt-3">Kristi Stolgin</h4>
+            <p class="text-muted">It’s Never 2 Late</p>
+            <a href="speakers.html#kristiBio" class="btn btn-primary speaker-btn" title="Read Kristi's Bio">Read Kristi's Bio</a>
+          </div>
+          <!-- <div class="card card-styling" >
+            <img src="assets/nocampimg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kristi Stolgin</h5>
+              <p class="card-text text-muted">It’s Never 2 Late</p>
+              <a href="#" class="btn btn-primary">Read Kristi's Bio</a>
+            </div>
+          </div> -->
+        </div>
+     
+        <!-- ROW 2 -->
+     
+        <!-- CARD 4 -->
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="text-center speaker-container">
+            <a href="speakers.html#robynBio" title="Read Robyn's Bio"><img loading="lazy" class="lazyload" data-src="https://res.cloudinary.com/dg92t6syv/image/upload/v1627926092/MCS/img-profile-stone_l8yrdv.jpg" alt="Robyn Stone photo"/></a>
+            <h4 class="mt-3">Robyn Stone, PhD</h4>
+            <p class="text-muted">Senior VP of Research, LeadingAge</p>
+            <a href="speakers.html#robynBio" class="btn btn-primary speaker-btn" title="Read Robyn's Bio">Read Robyn's Bio</a>
+          </div>
+          <!-- <div class="card card-styling" >
+            <img src="assets/nocampimg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Robyn Stone, PhD</h5>
+              <p class="card-text text-muted">Senior VP of Research, LeadingAge</p>
+              <a href="#" class="btn btn-primary">Read Robyn's Bio</a>
+            </div>
+          </div> -->
+        </div>
+        <!-- CARD 5 -->
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="text-center speaker-container">
+            <a href="speakers.html#concettaBio" title="Read Concetta's Bio"><img loading="lazy" class="lazyload" data-src="https://res.cloudinary.com/dg92t6syv/image/upload/v1627926092/MCS/img-profile-tomaino_bpcgkx.jpg" alt="Concetta Tomaino photo"/></a>
+            <h4 class="mt-3">Concetta Tomaino, DA, LCAT, MT-BC</h4>
+            <p class="text-muted">Institute for Music and Neurologic Function</p>
+            <a href="speakers.html#concettaBio" class="btn btn-primary speaker-btn" title="Read Concetta's Bio">Read Concetta's Bio</a>
+          </div>
+          <!-- <div class="card card-styling" >
+            <img src="assets/nocampimg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Concetta Tomaino, DA, LCAT, MT-BC</h5>
+              <p class="card-text text-muted">Institute for Music and Neurologic Function</p>
+              <a href="#" class="btn btn-primary">Read Concetta's Bio</a>
+            </div>
+          </div> -->
+        </div>
+        <!-- CARD 6 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="text-center speaker-container">
+            <a href="speakers.html#jackBio" title="Read Jack's Bio"><img loading="lazy" class="lazyload" data-src="https://res.cloudinary.com/dg92t6syv/image/upload/v1627926092/MCS/img-profile-york_ljudik.jpg" alt="Jack York"/></a>
+            <h4 class="mt-3">Jack York</h4>
+            <p class="text-muted">President &amp; Co-Founder, It’s Never 2 Late</p>
+            <a href="speakers.html#jackBio" class="btn btn-primary speaker-btn" title="Read Jack's Bio">Read Jack's Bio</a>
+          </div>
+          <!-- <div class="card card-styling" >
+            <img src="assets/nocampimg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jack York</h5>
+              <p class="card-text text-muted">President & Co-Founder, It’s Never 2 Late</p>
+              <a href="#" class="btn btn-primary">Read Jack's Bio</a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr id="schedule">
+  <!-- SCHEDULE -->
+  <section class="container my-5">
+    <h2 class="mb-3">Summit Schedule</h2>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#jan22">January 22</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#jan23">January 23</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#jan24">January 24</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content pb-3 px-2">
+      <!-- JANUARY 22 -->
+      <div id="jan22" class="mx-1 tab-pane active">
+        <div class="row pt-2">
+          <h3 class="py-3 schedule-day"><time>Tuesday, January 22</time></h3>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2" style="background-color: #ffe4c067;border-radius: 15px;">
+            <div class="mb-1">
+              <p><b><time>8:00a.m. to 8:30a.m.</time></b><br>
+                Breakfast Buffet and Registration<br/>
+                Location: Asbury Lobby<br/>
+                Sponsored by Village on the Isle
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>8:30a.m. to 8:45a.m.</time></b><br>
+                Deans Welcome<br/>
+                Speaker: Dana Burr Bradley, Ph.D.<br/>
+                Location: Asbury C&amp;D
+                </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>8:45a.m. to 9:15a.m.</time></b><br>
+                “ConnecToMe”<br/>
+                Speaker: Judah L. Ronch, Ph.D.<br/>
+                Location: Asbury C&amp;D
+                </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2">
+            <div class="mb-1">
+              <p><b><time>9:15a.m. to 10:30a.m.</time></b><br>
+                Delivering Service Excellence to Connect with Every Guest<br/>
+                Location: Asbury C&amp;D<br/>
+                Speaker: Mark Matheis, The Disney Institute
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>10:30a.m. to 12:30p.m.</time></b><br>
+                Behind the Scenes at Magic Kingdom<br/>
+                Location: Disney’s Magic Kingdom<br/>
+                The Disney Institute
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>12:30p.m. to 1:30p.m.</time></b><br>
+                Lunch<br/>
+                Location: Yachtsman Steakhouse<br/>
+                Sponsored by Integrace
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2" style="background-color: #ffe4c067;border-radius: 15px;">
+            <div class="mb-1">
+              <p><b><time>1:30p.m. to 1:45p.m.</time></b><br>
+                Travel Back to Asbury C&amp;D
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>1:45p.m. to 2:15p.m.</time></b><br>
+                Behind the Scenes Connections<br/>
+                Location: Asbury C&amp;D<br/>
+                Speaker: Mark Matheis, The Disney Institute
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>4:30p.m.</time></b><br>
+                Connections & Reflections at Hurricane Hanna’s<br/>
+                Light fare and cocktails are available for purchase.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- JANUARY 23 -->
+      <div id="jan23" class="mx-1 tab-pane">
+        <div class="row pt-2">
+          <h3 class="py-3 schedule-day"><time>Wednesday, January 23</time></h3>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2" style="background-color: #ffe4c067;border-radius: 15px;">
+            <div class="mb-1">
+              <p><b><time>8:00a.m. to 8:30a.m.</time></b><br>
+                Breakfast Buffet<br>
+                Location: Asbury Lobby
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>8:30a.m. to 10:00a.m.</time></b><br>
+                The Lure of Technology in Memory Care: Choosing Products Strategically<br>
+                Speaker: Jack York, President & Co-Founder, IN2L &amp; Jody Holtzman, Longevity Venture Advisors, LLC<br>
+                Location: Asbury C&amp;D
+                </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>10:00a.m. to 10:15a.m.</time></b><br>
+                Networking Break
+                </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>10:15a.m. to 11:15a.m.</time></b><br>
+                Breakout 1: Music &amp; The Mind<br>
+                Speaker: Concetta M. Tomaino, DA, LCAT, MTBC, Institute for Music and Neurologic Function<br>
+                Location: Salon VII 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2">
+            <div class="mb-1">
+              <p>
+                Breakout 2: Palliative Care & Advanced Dementia<br>
+                Speaker: Ann Wyatt, CaringKind<br>
+                Location: Asbury C&amp;D
+              </p>
+              <p>
+                Breakout 3: Using Adult Learning for Results in Technology Training<br>
+                Speaker: Kristi Stoglin, IN2L<br>
+                Location: Salon VIII 
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>11:15a.m. to 11:30a.m.</time></b><br>
+                Networking Break
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>11:30a.m. to 12:15p.m.</time></b><br>
+                All Emergencies are Local<br>
+                Speaker: Richard Prudom, <abbr title="Florida">FL</abbr> Department of Elder Affairs; Kathryn Hyer, Ph.D., MPP, FL Policy Exchange Center on Aging<br>
+                Location: Asbury C&amp;D
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2" style="background-color: #ffe4c067;border-radius: 15px;">
+            <div class="mb-1">
+              <p><b><time>12:15p.m. to 1:00p.m.</time></b><br>
+                Lunch<br>
+                Location: Yachtsman Steakhouse
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>1:15p.m. to 2:15p.m.</time></b><br>
+                Connecting Facts with Figures: Improving Quality of Care & Retention<br>
+                Speaker: Robyn Stone, Dr.P.H., LeadingAge<br>
+                Location: Asbury C&amp;D
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>2:15p.m. to 2:30p.m.</time></b><br>
+                Daily Review: Connecting the Dots<br>
+                Speaker: Judah L. Ronch, Ph.D.<br>
+                Location: Asbury C&amp;D
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>7:00p.m.</time></b><br>
+                Connections & Reflections at Abracadabar<br>
+                Light fare and cocktails are available for purchase.
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>9:00p.m.</time></b><br>
+                Fireworks Visible from Boardwalk
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- JANUARY 24 -->
+      <div id="jan24" class="mx-1 tab-pane">
+        <div class="row pt-2">
+          <h3 class="py-3 schedule-day"><time>Thursday, January 24</time></h3>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2" style="background-color: #ffe4c067;border-radius: 15px;">
+            <div class="mb-1">
+              <p><b><time>8:00a.m. to 8:30a.m.</time></b><br>
+                Breakfast Buffet<br>
+                Location: Asbury Lobby
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>8:30a.m. to 8:40a.m.</time></b><br>
+                Introductions
+                Location: Asbury C&amp;D
+                </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>8:45a.m. to 9:45a.m.</time></b><br>
+                Improvisation Techniques to Create Caregiver Connections<br>
+                Speaker: Donna Poole, M.A. &amp; Jessie Poole, Arcadia Assisted Living<br>
+                Location: Asbury C&amp;D
+                </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2">
+            <div class="mb-1">
+              <p><b><time>9:45a.m. to 10:00a.m.</time></b><br>
+                Networking Break
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>10:00a.m. to 10:45a.m.</time></b><br>
+                Lessons Learned from a Local Dementia Friendly Business Owner<br>
+                Owner: Kimberly Speckner, Hen House Cafe <br>
+                Moderator: Richard Prudom<br>
+                Location: Asbury C&amp;D
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>10:45a.m. to 11:00a.m.</time></b><br>
+                Networking Break
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-2 pt-2" style="background-color: #ffe4c067;border-radius: 15px;">
+            <div class="mb-1">
+              <p><b><time>11:00a.m. to Noon</time></b><br>
+                I'm Still Me<br>
+                Location: Asbury C&D
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>Noon to 12:15p.m.</time></b><br>
+                Daily Review: Connecting the Dots<br>
+                Speaker: Judah L. Ronch, Ph.D.
+              </p>
+            </div>
+            <div class="mb-1">
+              <p><b><time>12:15p.m.</time></b><br>
+                Attendee Gifts
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- END JAN 24 -->
+    </div>  
+  </section>
+  <hr id="registration">
+  <!-- REGISTRATION AND LOCATION -->
+  <section class="container my-5">
+    <h2 class="mb-3">Registration and Location</h2>
+    <div class="row">
+      <!-- PRICING -->
+      <div class="col-md-6">
+        <h3>Pricing</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+          </symbol>
+        </svg>
+        <div class="alert alert-info d-flex align-items-center" role="alert">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+          <div>
+            <strong>Registration: $1495.00<br>
+              Teams: $1,295.00*<br>
+              Erickson School Alumni Pricing: $995.00**</strong>
+          </div>
+        </div>
+        <p><small>*Teams are identified as 3 or more people from your organization.<br>
+          <strong>Teams of more than 5 should contact Jamie Jaegers at 443-543-5628 or jamiej1@umbc.edu to register.</strong><br>
+          **Alumni are identified as individuals who have completed the Erickson School’s Management of Aging Services undergraduate and/or graduate degree programs.</small></p>
+        <p>You will receive a confirmation letter via email after you register to assist you in:</p>
+        <ul>
+          <li>buying theme park tickets</li>
+          <li>arranging for free travel from the airport to the hotel</li>
+          <li>luggage delivery to your room from the airport</li>
+          <li>and other options to make your stay more enjoyable...</li>
+        </ul>
+      </div>
+      <div class='col-md-6'>
+        <h4 class="pt-4">Registration Cut-Off and Cancellation</h4>
+        <p>Registration Cut-Off Date: <time>January 4, 2019</time></p>
+        <p>Please contact Jamie Jaegers at 443-543-5628 if you missed the registration deadline and are still interested in attending the 2018 Memory Care Summit.</p>
+        <p class="fs-5">Registration Cancellation Policy:</p>
+        <p>Cancellations must be received 14 business days prior (<time>JAN 1</time>) to the Summit start date for a full refund, minus a $100.00 processing fee. Cancellations received after that time are not eligible for refund.</p>
+        <div class="d-grid gap-2">
+          <button class="btn btn-lg gen-btn" type="button">Book Online</button>
+        </div>
+      </div>
+    </div>
+      <!-- HOTEL INFO -->
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h3>Hotel Information</h3>
+        <h4>Disney’s Yacht and Beach Club Resorts<br>
+          Lake Buena Vista, Florida</h4>
+          <p>Discover the casual elegance of this charming, New England-style Resort hotel while staying at Disney’s deluxe resort, The Beach Club. Savor exquisite dining, and explore the pools, lagoons, and spas of Stormalong Bay. Sail around Crescent Lake on a rented mini-powerboat, and experience the luxurious comfort of a Club Level Suite. Sharing many amenities with its more formal sister, Disney’s Yacht Club Resort, Disney’s Beach Club Resort is walking distance to Epcot and a convenient boat ride to Disney’s Hollywood Studios and Disney’s Boardwalk shops and restaurants.</p>
+          <p>Rates starting at $273/night based upon style and preferences. Book your hotel room at Disney’s Beach Club Resort today before discounted room blocks sell out. Reservations must be made no later than <time>December 22, 2018</time> to receive this rate.</p>
+          <p>To make a reservation:</p>
+          <ul>
+            <li>Call the Disney’s Beach Club Resort at 407-939-4686 and reference The Erickson School Memory Care Summit</li>
+            <li>Click the Book Online link to reserve your room online Book Online</li>
+          </ul>
+          <div class="alert alert-warning" role="alert">
+            Note: There is a considerable amount of walking when staying at any Disney resort. The average walk from our rooms to the conference space is about <time>10 to 15 minutes</time>. If you require special assistance or have mobility issues, please contact Jamie Jaegers (jamiej1@umbc.edu) before January 1, 2019 for special accommodations and scooter/wheelchair rentals.
+          </div>
+      </div>
+      <!-- GOOGLE MAP -->
+      <div class="col-md-6"> 
+        <div class="mb-3">
+          <figure>
+            <img loading="lazy" class="img-fluid lazyload" data-src="img/img-loc-resort.jpg"  style="border-radius:100px 0 100px 0" width="100%" alt="Photo of Yacht and Beach Club">
+            <figcaption class="text-center text-muted mt-2"><i>A photo of Disney's Yacht and Beach Club Resorts pool.</i></figcaption>
+          </figure>
+          
+        </div>
+        <div class="googleMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.606161572259!2d-81.56097848520726!3d28.370754282521897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7fac3e06c229%3A0x69d8b01d16439b6d!2sDisney&#39;s+Yacht+Club+Resort!5e0!3m2!1sen!2sus!4v1554429788578!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      </div>
+    </div>
+  </section>
+  <hr id="contact-us">
+  <!-- CONTACT US -->
+  <section class="container mt-5 mb-1" id="contact-us">
+    <h2 class="mb-3">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h3>Who to Contact</h3>
+        <p>If you have any questions or concerns regarding the memory care summit please use the contact information below.</p>
+        <hr>
+        <div class="row">
+          <div class="col-md-3">
+            <p class="text-center"><img loading="lazy" class="img-fluid contact-img lazyload" data-src="img/img-contact-jaeger.jpg" alt="Photo of Jamie Jaegers" ></p>
+          </div>
+          <div class="col-md-9 contact-info">
+            <p><span class="fw-bold fs-5">Jamie Jaegers</span><br> 
+              Program Operations & Logistics<br>
+              jamiej1@umbc.edu <br> (443) 543-5628
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class='col-md-3'>
+            <p class="text-center"><img loading="lazy" class="img-fluid contact-img lazyload" data-src="img/img-contact-appel.jpg" alt="Photo of Leigh Appel" ></p>
+          </div>
+          <div class="col-md-9 contact-info">
+            <p><span class="fw-bold fs-5">Leigh Appel</span><br> 
+              Marketing, Communications & Alumni Relations<br>
+              lappel2@umbc.edu <br> (443) 543-5608 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Contact Form</h3>
+        <form action="" method="POST" class='needs-validation contact-form' id="contact-form" autocomplete="on" autocapitalize="true" novalidate>
+          <div class="mb-3 form-group">
+            <label for="name" class="form-label">Name:</label><br>
+            <input type="text" id="name" name="name" class="form-control contact-input" required aria-required="true" placeholder="Full Name" aria-placeholder="Enter your name">
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+            <div class="valid-feedback"></div>
+          </div>
+          <div class="mb-3 form-group">
+            <label for="email" class="form-label">Email:</label><br>
+            <input type="email" id="email" name="email" class="form-control contact-input" validate required aria-required="true" placeholder="your_name@email.com" aria-placeholder="Enter your email">
+            <div class="invalid-feedback">
+              Please enter your email.
+            </div>
+            <div class="valid-feedback"></div>
+          </div>
+          <div class="mb-3 form-group">
+            <label for="subject" class="form-label">Subject:</label><br>
+            <input type="text" id="subject" name="subject" class="form-control contact-input" placeholder="Subject (Optional)" aria-placeholder="Enter a Subject (Optional)">
+          </div>
+          <div class="mb-3 form-group">
+            <label for="message" class="form-label">Message:</label><br>
+            <textarea class="form-control contact-input" id="message" name="message" rows="5" required aria-required="true" aria-placeholder="Enter your comment or question."></textarea>
+            <div class="invalid-feedback">
+              A message is required.
+            </div>
+            <div class="valid-feedback"></div>
+          </div>
+          <button type="submit" class="btn gen-btn form-submit-btn" style="width:150px">Submit</button>
+        </form>
+        <p class="display-test"></p>
+        <div id="contact-success-msg" class="noDisplay">
+          <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </symbol>
+          </svg>
+          <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+            <div>
+              <strong>Success!</strong> Your message was sent!
+              <button type="button" class="btn-close" id="submit-close" data-bs-dismiss="alert" aria-label="Close" onclick="closeMsg()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer-border"></div>
+  <!-- FOOTER -->
+  <footer class="container-fluid py-4">
+    <div class="row mx-auto text-white footer-content">
+      <section class="col-md-4">
+        <p class="fw-bold fs-5 footer-head">The Memory Care Summit</p>
+        <ul class="navbar-nav flex-column">
+          <li class="nav-item"><a href="#about" class="nav-link footer-nav">About Us</a></li>
+          <li class="nav-item"><a href="#speakers" class="nav-link footer-nav">Speakers</a></li>
+          <li class="nav-item"><a href="#schedule" class="nav-link footer-nav">Schedule</a></li>
+          <li class="nav-item"><a href="#registration" class="nav-link footer-nav">Registration and Location</a></li>
+          <li class="nav-item"><a href="#contact-us" class="nav-link footer-nav">Contact Us</a></li>
+        </ul>
+        <hr class="footer-hr">
+      </section>
+      <section class="col-md-4">
+        <p class="fw-bold fs-5 footer-head">Erickson School of Aging</p>
+        <p>5523 Research Park Drive <br>Suite 230 <br>Baltimore, MD 21228<br>
+          (443) 543-5628<br>
+          erickson&#64;umbc.edu</p>
+        <hr class="footer-hr">
+      </section>
+      <section class="col-md-4 mb-2">
+        <p class="fw-bold fs-5 footer-head">Subscribe to our Newsletter!</p>
+        <form class="form-inline subscribe-form">
+          <input type="email" class="form-control mr-sm-2 mb-2" id="email" name="email" placeholder="Enter your email">
+          <button type="submit" class="btn btn-warning mb-2 fw-bold sub-btn" onclick="formReset()">Subscribe</button>
+        </form>
+      </section>
+    </div>
+  </footer>
+  <script>
+  //SUBSCRIBE FORM
+    function formReset(){
+      const subForm = document.querySelector(".subscribe-form");
+      event.preventDefault()
+      event.stopPropagation()
+      subForm.reset();
+
+    }
+
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      let forms = document.querySelectorAll('.needs-validation')
+      const submitBtn = document.querySelector(".form-submit-btn")
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            event.preventDefault()
+            event.stopPropagation()
+            form.classList.add('was-validated');
+            
+          }, false)
+        })
+    })()
+
+    /*function submitSuccess(f){
+              const msg = document.getElementById('contact-success-msg');
+              let p = document.querySelector(".display-test")
+              f.classList.contains('was-validated');
+              if(f === true){
+                p.innerText ="YES"
+              } else {
+                p.innerText ="NO"
+              }
+            }
+
+    function submitSuccess(){
+      event.preventDefault()
+      event.stopPropagation()      
+        document.getElementById('contact-form').style.display = "none";
+        const msg = document.getElementById('contact-success-msg');
+        const submitBtn = document.getElementById('submit-close');
+        msg.classList.remove('noDisplay');
+        msg.classList.add('yesDisplay');
+    }
+
+    function closeMsg(){
+      const contactForm = document.querySelector(".contact-form");
+      const msg = document.getElementById('contact-success-msg');
+      msg.classList.remove('yesDisplay');
+      msg.classList.add('noDisplay');
+      contactForm.reset();
+      location.reload();
+    }
+    */
+  </script>
+
+  <!-- LAZY LOAD IMAGES PLUGIN-->
+  <!-- https://github.com/tuupola/lazyload -->
+  <!--
+    if <img loading="lazy".../> doesn't work, use the plugin
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+  <script>
+    lazyload();
+  </script>
+</body>
+
+</html>
